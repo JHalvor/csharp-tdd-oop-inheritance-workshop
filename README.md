@@ -5,6 +5,6 @@
 - Explain how superclass methods can be overridden (virtual) in a subclass and 
 - Use composition as an alternative to inheritance
 
-## Zoo Example
+## Consider Inheritance vs Composition
 
-Examine the following workshop for a Zoo.  
+Examine the CalculatorComposition and the CalculatorInheritance examples..  Which one is easier to modify / improve?

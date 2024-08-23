@@ -1,4 +1,4 @@
-﻿namespace workshop.main
+﻿namespace workshop.main.MusicShop
 {
     public class Drums : Product
     {
@@ -10,9 +10,9 @@
         /// drums discount is calculated directly
         /// </summary>
         /// <returns></returns>
-        public override decimal CalculateDiscount()
+        public override double CalculateDiscount()
         {
-            return this.Price - this.Discount;
+            return Price - Discount;
         }
     }
 }
